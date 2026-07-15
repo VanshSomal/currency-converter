@@ -1,12 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import {InputBox} from './components'
+import useCurrencyInfo from './hooks/useCurrencyInfo'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
       <h1 className='flex justify-center items-center text-3xl text-white font-bold mt-5'>Currency Converter</h1>
